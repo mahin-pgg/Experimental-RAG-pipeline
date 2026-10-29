@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated RAG index and embeddings
+index/
+*.npy
+*.npz
+
+# Model caches and downloaded model weights
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

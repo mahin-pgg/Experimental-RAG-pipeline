@@ -1,0 +1,23 @@
+Machine Learning Fundamentals
+
+Machine learning enables computers to learn patterns
+from data. Models are trained using examples and an
+optimization algorithm.
+
+Overfitting
+
+Overfitting occurs when a model learns the training
+data too closely, including noise. It often performs
+well on training data but poorly on unseen examples.
+
+Regularization
+
+Regularization helps control model complexity.
+L1 and L2 regularization add penalties to the training
+objective. Dropout is commonly used in neural networks.
+
+Model Evaluation
+
+A validation set helps select models and tune
+hyperparameters. A test set provides a final evaluation
+of performance on unseen data.
