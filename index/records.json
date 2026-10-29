@@ -1,0 +1,26 @@
+[
+  {
+    "chunk_id": "ml_notes.txt_chunk_0",
+    "document_id": "ml_notes.txt",
+    "source": "ml_notes.txt",
+    "chunk_index": 0,
+    "char_count": 259,
+    "text": "Machine Learning Fundamentals\n\nMachine learning enables computers to learn patterns\nfrom data. Models are trained using examples and an\noptimization algorithm. Overfitting\n\nOverfitting occurs when a model learns the training\ndata too closely, including noise."
+  },
+  {
+    "chunk_id": "ml_notes.txt_chunk_1",
+    "document_id": "ml_notes.txt",
+    "source": "ml_notes.txt",
+    "chunk_index": 1,
+    "char_count": 299,
+    "text": "Overfitting\n\nOverfitting occurs when a model learns the training\ndata too closely, including noise. It often performs\nwell on training data but poorly on unseen examples. Regularization\n\nRegularization helps control model complexity. L1 and L2 regularization add penalties to the training\nobjective."
+  },
+  {
+    "chunk_id": "ml_notes.txt_chunk_2",
+    "document_id": "ml_notes.txt",
+    "source": "ml_notes.txt",
+    "chunk_index": 2,
+    "char_count": 261,
+    "text": "L1 and L2 regularization add penalties to the training\nobjective. Dropout is commonly used in neural networks. Model Evaluation\n\nA validation set helps select models and tune\nhyperparameters. A test set provides a final evaluation\nof performance on unseen data."
+  }
+]

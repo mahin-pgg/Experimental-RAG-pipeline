@@ -16,11 +16,6 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Generated RAG index and embeddings
-index/
-*.npy
-*.npz
-
 # Model caches and downloaded model weights
 models/
 *.pt
