@@ -1,4 +1,4 @@
-from langchain_community.document_loaders import (TextLoader)
+from langchain_community.document_loaders import (TextLoader, PyMuPDFLoader)
 
 def load_documents(file_path: str):
     """
@@ -7,10 +7,11 @@ def load_documents(file_path: str):
     Args:
         file_path (str): The path to the text file.
     """
-    loader = TextLoader(file_path)
+    # loader = TextLoader(file_path)
+    loader = PyMuPDFLoader(file_path)
     documents = loader.load()
     return documents
 
-docs = load_documents("documents/ml_notes.txt")
+docs = load_documents("documents/Algos.pdf")
 
 print(docs[0].page_content)
